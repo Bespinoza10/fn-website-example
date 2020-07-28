@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px){
+    h1{
+        font-size: 55px;
+    }
+    .hero{
+        background-image: url('img/mobile-hero.jpg');
+    }
+    .hero-content h1{
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+
+    /* WHO AM I */
+    #who-am-i{
+        padding-bottom: 6%;
+    }
+    .who-am-i-contents{
+        display: block;
+    }
+    .who-am-i-username{
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin-right: 0px;
+    }
+    .who-am-i-username .pfp {
+        float: none;
+    }
+    .who-am-i-username .details{
+        padding: 0px;
+    }
+    .who-am-i-username .details h5{
+        float: none;
+        padding: 0px;
+    }
+    .who-am-i-username .details .mx-flag{
+        float: none;
+    }
+    .who-am-i-bio{
+        max-width: 100%;
+    }
+
+    /* CHECK ME OUT */
+    #check-me-out{
+        padding: 6% 0%;
+    }
+    .my-videos .video{
+        max-width: 100%;
+        display: block;
+        padding-bottom: 20px;
+    }
+    .my-videos .video iframe{
+        max-width: 100%;
+    }
+
+    /* CONTACT ME */
+    .contact-form{
+        max-width: 100%;
+        float: none;
+    }
+    .im-live{
+        max-width: 100%;
+        padding-top: 60px;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 45px;
+        line-height: 60px;
+    }
+}
